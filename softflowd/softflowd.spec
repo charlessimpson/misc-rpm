@@ -5,8 +5,8 @@ Summary:	Flow-based network traffic analyser capable of Cisco NetFlow data expor
 
 Group:		Applications/System
 License:	BSD
-URL:		https://code.google.com/p/softflowd/
-Source0:	https://code.google.com/p/softflowd/downloads/detail?name=softflowd-%{version}.tar.gz
+URL:		https://code.google.com/p/%{name}/
+Source0:	https://%{name}.google.com/files/%{name}-%{version}.tar.gz
 
 BuildRequires:	libpcap-devel
 
